@@ -29,15 +29,25 @@ se vea de una forma de que se puede entender. ej:"1. hola, 2. que tal?, etc". Pa
 usaremos el código: "ul y li" que esto hace que el texto quue queremos mostrar aparezca en en un formato lista,
 pero esta lista no esta ordenada por números. ej: buenos dias, hasta luego, que tal, etc.
 
-Para crear un párrafo, usamos el código "<p> </p>" con un salto de línea entre los dos campos, para que de esta manera,
+Para crear un párrafo, usamos el código "p" con un salto de línea entre los dos campos, para que de esta manera,
 el texto que será de un tamaño en concreto.
 
 <h3>HTML:</h3>
 Para empezar a usar html, debemos escribir lo siguiente: "html:5", este comando hace que el sistema de html,
 que haga un formato determinado para que puedas trabajar usando html.
 
-EL formato que se denomina "<header> </header>", es para que pongas un título que quieres que se vea en la primera página,
+EL formato que se denomina "header", es para que pongas un título que quieres que se vea en la primera página,
 y se trata de una pequeña descripción de que se trata el html.
 
-El formato denominado "<body> </body>", sirve para escribir todo el código que deseamos añadir en html,
-y para que se vea de una forma que se pueda leer con facilidad
+El formato denominado "body", sirve para escribir todo el código que deseamos añadir en html,
+y para que se vea de una forma que se pueda leer con facilidad.
+
+En html, para que un texto que aparezca en negrita tiene que ser usado mediante el formato "strong",
+porque de esta manera, a la hora de entregar los ejercicios, tanto como el super mega chat gpt y github pages,
+no detecten cualquier incidencia que les puede moltestar.
+
+Para añadir una imagen en html, usamos el código " img source: dirección de donde esta la imagen y alt que denomine el nombre elegido.".
+Este enlace permite que html a la hora de mostrar la imagen, sepa de donde puede encontrar la foto que hemos elegido.
+
+Para hacer una enlace entre documentos html, usaremoa el código " a href" para que este enlace que hemos creado,
+nos permita movernos a otro documento html que hemos creado y queremos ver como ha quedado y funciona el enlace.
