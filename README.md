@@ -1,5 +1,5 @@
 # Apuntes
-Apuntes de clase
+<h1>Apuntes de clase</h1>
 
 <strong>Para crear un repositorio de github en tu pc local:</strong>
 Copiamos el código del repositorio que hemos creado,
@@ -19,8 +19,25 @@ que mediante este código se formará una tabla en el archivo nuevo que creamos 
 Para hacer un texto en negrita mediante markdown, utilizamos este código "**texto**" o "__texto2__", para esto decile al codigo,
 que el texto que hemos elegido aparezca en negrita en comparación al resto del texto. Para hacer que un texto determinado,
 este en itálica o en cursiva, usamos el código "*hola* o _adios_". Esto hace que el texto cambie de formato que está,
-y lo cambia para que aparezca de otra forma al que se usa por defecto.
+y lo cambia para que aparezca de otra forma al quae se usa por defecto.
 
 Para los encabezados, usamos el código "h1, h2, h3, h4, h5, h6" para que de esta forma el texto aparezca en diferente tamaño,
 posición y localización en el archivo que estemos usando.
 
+Para hacer una lista ordenada, usamos el código: "ol y li" para que de esta manera, aparezca el texto que introducimos,
+se vea de una forma de que se puede entender. ej:"1. hola, 2. que tal?, etc". Para crear una lista desordenada,
+usaremos el código: "ul y li" que esto hace que el texto quue queremos mostrar aparezca en en un formato lista,
+pero esta lista no esta ordenada por números. ej: buenos dias, hasta luego, que tal, etc.
+
+Para crear un párrafo, usamos el código "<p> </p>" con un salto de línea entre los dos campos, para que de esta manera,
+el texto que será de un tamaño en concreto.
+
+<h3>HTML:</h3>
+Para empezar a usar html, debemos escribir lo siguiente: "html:5", este comando hace que el sistema de html,
+que haga un formato determinado para que puedas trabajar usando html.
+
+EL formato que se denomina "<header> </header>", es para que pongas un título que quieres que se vea en la primera página,
+y se trata de una pequeña descripción de que se trata el html.
+
+El formato denominado "<body> </body>", sirve para escribir todo el código que deseamos añadir en html,
+y para que se vea de una forma que se pueda leer con facilidad
