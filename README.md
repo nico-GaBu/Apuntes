@@ -1,5 +1,5 @@
 # Apuntes
-<h1>Apuntes de clase</h1>
+<h1>Mis apuntes</h1>
 
 <strong>Para crear un repositorio de github en tu pc local:</strong>
 Copiamos el código del repositorio que hemos creado,
@@ -51,3 +51,5 @@ Este enlace permite que html a la hora de mostrar la imagen, sepa de donde puede
 
 Para hacer una enlace entre documentos html, usaremoa el código " a href" para que este enlace que hemos creado,
 nos permita movernos a otro documento html que hemos creado y queremos ver como ha quedado y funciona el enlace.
+Tambien, hay otro código denominado "link rel type href" que se usa para poder crear tu propio favicon,
+ que es el icono que aparece cuando entras en la página web, es un logo de pequeña estatura.
