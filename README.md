@@ -114,7 +114,7 @@ Para poner un texto en <strong>negrita</strong>, usa el elemento <code>&lt;stron
 Para agregar una imagen en HTML, usa el siguiente código:
 
 <pre>
-<img src="URL de la imagen" alt="Texto alternativo">
+<img src="./img/bola basket barça.jpg" alt="Bola basket barça">
 </pre>
 - <code>src</code>: Especifica la URL donde se encuentra la imagen.
 - <code>alt</code>: Proporciona un texto alternativo que se mostrará si la imagen no se puede cargar.
@@ -123,7 +123,7 @@ Para agregar una imagen en HTML, usa el siguiente código:
 Para crear enlaces entre páginas HTML, usa el siguiente código:
 
 <pre>
-<a href="URL del documento">Texto del enlace</a>
+<a href="www.google.es">Enlace a Google</a>
 </pre>
 - <code>href</code>: Especifica la URL del documento al que el enlace llevará al usuario.
 
