@@ -114,7 +114,7 @@ Para poner un texto en <strong>negrita</strong>, usa el elemento <code>&lt;stron
 Para agregar una imagen en HTML, usa el siguiente código:
 
 <pre>
-<img src="./img/bola basket barça.jpg" alt="300">
+<img src="./img/bola basket barça.jpg" alt="bola basket barça" width="300">
 </pre>
 - <code>src</code>: Especificamos la URL donde se encuentra la imagen.
 - <code>alt</code>: Proporcionamos un texto alternativo que se mostrará si la imagen no se puede cargar.
@@ -131,8 +131,7 @@ Para crear enlaces externos, usmaos el siguiente código:
 Para agregar un favicon (el ícono que aparece en la pestaña del navegador), usa el siguiente código en el <code>&lt;head&gt;</code>:
 
 <pre>
-    <link rel="icon" type="image/vnd.microsoft.icon" href="ruta/icono_16.png">
-    <link rel="icon" type="image/gif" href="./img/bola basket barça.jpg" sizes="16x16">
+<link rel="icon" type="image/png" href="URL del favicon">
 </pre>
 
 
