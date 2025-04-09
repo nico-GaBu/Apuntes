@@ -167,7 +167,7 @@ Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos 
 Aseguranos de que el documento HTML tenga la meta etiqueta para que la página sea responsive desde el principio:
 
 ```html
-<pre>
+
 @media (max-width: 700px){
     header{
         background-color: #27f3d1;
@@ -198,5 +198,5 @@ Aseguranos de que el documento HTML tenga la meta etiqueta para que la página s
         margin-bottom: 10px;
     }
 }
-</pre>
+
 Lo que hace este códgio es que cuando cambiamos el tamaño de la pestaña de la página web, esta llegue a un punto en donde todo cambia de forma, color, color de fondo, etc. donde ya no se mueva más.
