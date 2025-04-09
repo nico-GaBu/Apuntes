@@ -100,7 +100,7 @@
 <p>Para agregar una imagen en HTML, usa el siguiente código:</p>
 
 <pre>
-<img src="./img/bola-basket-barça.jpg" alt="bola basket barça" width="300">
+<img src="./img/bola basket barça.jpg" alt="bola basket barça" width="300">
 </pre>
 
 <p><strong>Enlaces externos:</strong></p>
