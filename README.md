@@ -1,5 +1,5 @@
 # Mis apuntes
-
+<h1>Github:</h1>
 <strong>Para crear un repositorio de GitHub en tu PC local:</strong>
 1. Copia la URL del repositorio que has creado en GitHub.
 2. En tu PC, selecciona una carpeta donde quieras clonar el repositorio.
