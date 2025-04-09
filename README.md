@@ -164,7 +164,40 @@ Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos 
 
 <h3>1. Meta Etiqueta "Viewport"</h3>
 
-Asegúrate de que tu documento HTML tenga la meta etiqueta para que la página sea responsive desde el principio:
+Aseguranos de que el documento HTML tenga la meta etiqueta para que la página sea responsive desde el principio:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<pre>
+@media (max-width: 700px){
+    header{
+        background-color: #27f3d1;
+    }
+    section{
+        font-size: 12px;
+    }
+    main{
+        flex-direction: column;
+    }
+    aside, section{
+        width: 100%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+}
+</pre>
+Lo que hace este códgio es que cuando cambiamos el tamaño de la pestaña de la página web, esta llegue a un punto en donde todo cambia de forma, color, color de fondo, etc. donde ya no se mueva más.
