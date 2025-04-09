@@ -1,42 +1,44 @@
-# Mis apuntes
-<h1>Github:</h1>
-<strong>Para crear un repositorio de GitHub en tu PC local:</strong>
-1. Copia la URL del repositorio que has creado en GitHub.
-2. En tu PC, selecciona una carpeta donde quieras clonar el repositorio.
-3. Ejecuta el siguiente comando en la terminal:  
-   <code>git clone <URL del repositorio de GitHub></code>
-4. Esto descargará automáticamente el repositorio en la carpeta seleccionada.
+<!-- Mis apuntes -->
+<h1>GitHub: Gestión de Repositorios</h1>
+<p><strong>Para crear un repositorio de GitHub en tu PC local:</strong></p>
+<ol>
+  <li>Copia la URL del repositorio creado en GitHub.</li>
+  <li>En tu PC, selecciona una carpeta donde quieras clonar el repositorio.</li>
+  <li>Ejecuta el siguiente comando en la terminal:  
+    <code>git clone, seguido del URL_del_repositorio</code></li>
+  <li>Esto descargará automáticamente el repositorio en la carpeta seleccionada.</li>
+</ol>
 
-<strong>Guardar y subir los cambios:</strong>
-1. Para guardar los cambios en tu código, usa el siguiente comando:  
-   <code>git commit -m "Mensaje descriptivo sobre los cambios"</code>
-2. Luego, para subir los cambios a GitHub, usa el comando:  
-   <code>git push origin main</code>  
-   Este comando sube todos los cambios realizados a la rama principal de tu repositorio en GitHub.
+<p><strong>Guardar y subir los cambios:</strong></p>
+<ol>
+  <li>Para guardar los cambios en tu código, usa el siguiente comando:  
+    <code>git commit -m "<em>Mensaje descriptivo sobre los cambios</em>"</code></li>
+  <li>Luego, para subir los cambios a GitHub, usa el comando:  
+    <code>git push origin main</code></li>
+  <li>Este comando sube todos los cambios realizados a la rama principal de tu repositorio en GitHub.</li>
+</ol>
 
 <h2>Markdown:</h2>
-<strong>Crear una tabla</strong>
-Para crear una tabla en el archivo <code>README.md</code>, utiliza el siguiente formato:
+
+<p><strong>Crear una tabla:</strong></p>
+<p>Para crear una tabla en el archivo <code>README.md</code>, utiliza el siguiente formato:</p>
 
 <pre>
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
 | Valor 1   | Valor 2   | Valor 3   |
 </pre>
-Este código generará una tabla con tres columnas.
 
-<strong>Texto en negrita</strong>
-Para poner un texto en <strong>negrita</strong> en Markdown, usa los siguientes símbolos:
-<code>**texto**</code> o <code>__texto__</code>  
-Esto hará que el texto aparezca en negrita.
+<p><strong>Texto en negrita:</strong></p>
+<p>Para poner un texto en <strong>negrita</strong> en Markdown, usa los siguientes símbolos:</p>
+<code>**texto**</code> o <code>__texto__</code>
 
-<strong>Texto en cursiva</strong>
-Para poner un texto en <em>cursiva</em> (o itálica), usa los siguientes símbolos:
-<code>*texto*</code> o <code>_texto_</code>  
-Esto hará que el texto se muestre en cursiva.
+<p><strong>Texto en cursiva:</strong></p>
+<p>Para poner un texto en <em>cursiva</em> en Markdown, usa los siguientes símbolos:</p>
+<code>*texto*</code> o <code>_texto_</code>
 
-<strong>Encabezados</strong>
-Para crear encabezados, utiliza los siguientes códigos:
+<p><strong>Encabezados:</strong></p>
+<p>Para crear encabezados, utiliza los siguientes códigos:</p>
 
 <pre>
 # Título de nivel 1 (más grande)
@@ -47,33 +49,28 @@ Para crear encabezados, utiliza los siguientes códigos:
 ###### Título de nivel 6 (más pequeño)
 </pre>
 
-<strong>Listas</strong>
-- <strong>Lista ordenada:</strong> Usa el formato <code>ol</code> y <code>li</code> para crear una lista numerada. Ejemplo:
-
+<p><strong>Listas:</strong></p>
+<ul>
+  <li><strong>Lista ordenada:</strong> Usa el formato <code>ol</code> y <code>li</code> para crear una lista numerada. Ejemplo:</li>
+</ul>
 <pre>
 1. Primer ítem
 2. Segundo ítem
 3. Tercer ítem
 </pre>
-
-- <strong>Lista desordenada:</strong> Usa el formato <code>ul</code> y <code>li</code> para crear una lista sin numerar. Ejemplo:
-
+<ul>
+  <li><strong>Lista desordenada:</strong> Usa el formato <code>ul</code> y <code>li</code> para crear una lista sin numerar. Ejemplo:</li>
+</ul>
 <pre>
 - Primer ítem
 - Segundo ítem
 - Tercer ítem
 </pre>
 
-<strong>Párrafos</strong>
-Para crear un párrafo, usa el código <code>p</code>. Un salto de línea se puede hacer con el símbolo <code>&lt;br&gt;</code>. Ejemplo:
-
-<pre>
-<p>Este es un párrafo de ejemplo.</p>
-</pre>
-
 <h3>HTML:</h3>
-<strong>Empezando con HTML</strong>
-Para crear un documento HTML básico, usa el siguiente formato:
+
+<p><strong>Empezando con HTML:</strong></p>
+<p>Para crear un documento HTML básico, usa el siguiente formato:</p>
 
 <pre>
 <!DOCTYPE html>
@@ -85,118 +82,96 @@ Para crear un documento HTML básico, usa el siguiente formato:
 </head>
 <body>
 <ul>
-<li>
-Hola
-</li>
-<li>
-Encantado de conocerte
-</li>
-<li>
-Como llevas estos días?
-</li>
+  <li>Hola</li>
+  <li>Encantado de conocerte</li>
+  <li>¿Cómo llevas estos días?</li>
 </ul>
 </body>
 </html>
 </pre>
 
-<strong>Estructura básica de HTML</strong>
-- **Header:** El <code>&lt;head&gt;</code> es la sección donde se definen metadatos como el título de la página, enlaces a hojas de estilo, etc.
-- **Body:** El <code>&lt;body&gt;</code> es la sección donde se coloca el contenido visible de la página web.
-
-<strong>Negrita en HTML</strong>
-Para poner un texto en <strong>negrita</strong>, usa el elemento <code>&lt;strong&gt;</code>. Ejemplo:
-
+<p><strong>Negrita en HTML:</strong></p>
+<p>Para poner un texto en <strong>negrita</strong>, usa el siguiente elemento:</p>
 <pre>
 <strong>Texto en negrita</strong>
 </pre>
 
-<strong>Añadir imágenes</strong>
-Para agregar una imagen en HTML, usa el siguiente código:
+<p><strong>Añadir imágenes:</strong></p>
+<p>Para agregar una imagen en HTML, usa el siguiente código:</p>
 
 <pre>
-<img src="./img/bola basket barça.jpg" alt="bola basket barça" width="300">
+<img src="./img/bola-basket-barça.jpg" alt="bola basket barça" width="300">
 </pre>
-- <code>src</code>: Especificamos la URL donde se encuentra la imagen.
-- <code>alt</code>: Proporcionamos un texto alternativo que se mostrará si la imagen no se puede cargar.
 
-<strong>Enlaces externos a otra página</strong>
-Para crear enlaces externos, usamos el siguiente código:
+<p><strong>Enlaces externos:</strong></p>
+<p>Para crear enlaces externos, usa el siguiente código:</p>
 
 <pre>
-<a href="www.google.es">Enlace a Google</a>
+<a href="https://www.google.es">Enlace a Google</a>
 </pre>
-- <code>href</code>: Especifica la URL del documento al que el enlace llevará al usuario.
 
-<strong>Favicon</strong>
-Para agregar un favicon (el ícono que aparece en la pestaña del navegador), usa el siguiente código en el <code>&lt;head&gt;</code>:
+<p><strong>Favicon:</strong></p>
+<p>Para agregar un favicon, utiliza el siguiente código en el <code>&lt;head&gt;</code>:</p>
 
 <pre>
-<link rel="icon" type="image/png" href="URL del favicon">
+<link rel="icon" type="image/png" href="URL_del_favicon.png">
 </pre>
 
 <h2>Introducción a CSS</h2>
-<strong>CSS</strong> (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de un documento HTML. Permite controlar el diseño, los colores, las fuentes, los márgenes y otros aspectos visuales de los elementos en una página web.
+<p><strong>CSS</strong> (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de un documento HTML. Permite controlar el diseño, los colores, las fuentes, los márgenes y otros aspectos visuales de los elementos en una página web.</p>
 
 <h2>Sintaxis Básica de CSS</h2>
-La sintaxis de CSS se compone de <strong>selectores</strong> y <strong>declaraciones</strong>: 
-
+<p>La sintaxis de CSS se compone de <strong>selectores</strong> y <strong>declaraciones</strong>: </p>
 <pre>
 selector {
   propiedad: valor;
 }
 </pre>
 
-- **Selector**: Es el elemento HTML al que quieres aplicar estilos (por ejemplo, <code>p</code>, <code>div</code>, <code>.clase</code>, <code>#id</code>).
-- **Propiedad**: Es el estilo que deseas aplicar (por ejemplo, <code>color</code>, <code>font-size</code>, <code>margin</code>).
-- **Valor**: Es el valor que asignas a la propiedad (por ejemplo, <code>red</code>, <code>16px</code>, <code>10px</code>).
-
 <h3>Ejemplo:</h3>
-
 <pre>
 p {
   color: red;
   font-size: 16px;
 }
 </pre>
-Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos los elementos <code>&lt;p&gt;</code>.
+
+<p>Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos los elementos <code>&lt;p&gt;</code>.</p>
 
 <h2>Diseño Responsive</h2>
+<p><strong>Meta etiqueta "Viewport":</strong></p>
+<p>Para asegurar que el documento HTML sea responsivo, incluimos el siguiente código CSS:</p>
 
-<h3>1. Meta Etiqueta "Viewport"</h3>
-
-Aseguranos de que el documento HTML tenga en el archivo CSS el código siguiente para que la página web sea Responsive:
-
-```html
-
-@media (max-width: 700px){
-    header{
+<pre>
+@media (max-width: 700px) {
+    header {
         background-color: #27f3d1;
     }
-    section{
+    section {
         font-size: 12px;
     }
-    main{
+    main {
         flex-direction: column;
     }
-    aside, section{
+    aside, section {
         width: 100%;
     }
-    h1{
+    h1 {
         font-size: 50px;
     }
     .container {
         grid-template-columns: 1fr;
     }
-
     header nav ul {
         display: flex;
         flex-direction: column;
         text-align: left;
     }
-
     header nav ul li {
         margin-bottom: 10px;
     }
 }
+</pre>
 
-Lo que hace este códgio es que cuando cambiamos el tamaño de la pestaña de la página web, esta llegue a un punto en donde todo cambia de forma, color, color de fondo, etc. donde ya no se mueva más.
+<p>Este código hace que cuando cambias el tamaño de la ventana de la página web, el diseño se ajusta a los cambios. Al llegar a un punto específico, los elementos se reorganizan y cambian de color, tamaño y disposición, garantizando una experiencia de usuario óptima en dispositivos móviles.</p>
+
