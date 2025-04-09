@@ -164,7 +164,7 @@ Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos 
 
 <h3>1. Meta Etiqueta "Viewport"</h3>
 
-Aseguranos de que el documento HTML tenga la meta etiqueta para que la página sea responsive desde el principio:
+Aseguranos de que el documento HTML tenga en el archivo CSS el código siguiente para que la página web sea Responsive:
 
 ```html
 
