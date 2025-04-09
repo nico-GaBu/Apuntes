@@ -167,8 +167,8 @@ Este código aplica el color rojo y un tamaño de fuente de 16 píxeles a todos 
 Aseguranos de que el documento HTML tenga la meta etiqueta para que la página sea responsive desde el principio:
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <pre>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 @media (max-width: 700px){
     header{
         background-color: #27f3d1;
