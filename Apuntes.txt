@@ -64,4 +64,47 @@ o	<a href id>: es la etiqueta para poner un enlace a un sitio que coincida con e
 
 Validar código HTML/Markdown
 https://validator.w3.org
-Este validador de HTML/Markdown lo que hace es que lee todo el código que tiene el HTML que ha sido asignado para validar y devuelve todo lo que este correcto e proporciona los errores que contiene el código para poder corregirlo 
+Este validador de HTML/Markdown lo que hace es que lee todo el código que tiene el HTML que ha sido asignado para validar y devuelve todo lo que este correcto y proporciona los errores que contiene el código para poder corregirlo 
+
+Contenedores, formularios y tablas
+Contenedores
+Para crear el contenedor se ha de usar la etiqueta <div>.
+Ejemplos de elementos semánticos: <header>, <footer>, <article>, <section>, <nav> y <figure>
+
+Formularios
+La etiqueta para crear un formulario es <form>.
+Los atributos que son necesarios para que tenga el formulario son: 
+1.	Action
+2.	Method
+3.	Get
+4.	Post
+5.	Target
+6.	Type
+7.	Id
+8.	Input
+9.	Name
+10.	Value
+11.	Placeholder
+12.	Required
+13.	Desable
+14.	Readonly
+
+Textarea
+1.	Name
+2.	Id
+3.	Rows
+4.	Cols
+5.	Placeholder
+
+Etiquetas de tablas
+1.	Table
+2.	Thead
+3.	Tbody
+4.	Tfoot
+5.	Border
+6.	Width
+7.	Th
+8.	Tr
+9.	Td
+10.	Align
+11.	Bgcolor
