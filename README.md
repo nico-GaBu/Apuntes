@@ -1,4 +1,17 @@
 # Apuntes
+
+Github y Git
+¿Qué es Github y Git?
+Github es una plataforma en la nubeque permite almacenar, gestionar y colaborar en proyectos de código usando el sistema de control de versiones de Git. En pocas palabras, es el lugar donde los desarrolladores trabajan juntos para crear software, compartirlo y mejorar su calidad. Git es un sistema de control de versiones distribuido creado por Linus Torvalds en  2005. Su proposito es ayudar a los desarrolladores a gestionar el historial de cambios en el codigo de un proyecto, permitiendo trabajar de forma colaborativa y segura. 
+
+Comandos para Github
+Git clone - Este comando lo que hace es que clona el repositorio que ha sido creado en Github, para que se pueda trabajar de forma local desde cualquier dispositivo que pertenezca al propietario.
+Git add . - Lo que hace este comando es añade todos los archivos que se han creado para que a la hora de tener sincronizado tanto lo que se esta trabajando en local como en el repositorio que se encuentra en Github.
+Git commit -m - Este comando sirve para poner a todos los archivos como si fuera en una carpeta invisible para que sea facil el poder enviar los archivos al repositorio. El apartado -m, lo que indica es que se pueda poner un nombre, indicando los cambios que se han realizado en general dentro de cada archivo.
+Git push origin main - Este comando sirve para que una vez ya esta listo todo para poder enviar al repositorio. El apartado origin significa que se esta enviando desde el dispositivo al repositorio que se encuentra en Github.
+
+![Git clone](./imagenes/git%20clone.png)
+
 ¿Qué es un Lenguaje de Marcas?
 
 Es un sistema para anotar un documento de manera que se pueda estructurar, formatear o enlazar contenido de manera legible tanto para personas como máquinas. 
@@ -30,11 +43,11 @@ Etiquetas de markdown
 
 Etiquetas Markdown
 •	Enlaces:
-[link](https://ejemplo.com/ “Titulo opcional del enlace”)
+[link](https://www.google.es/ “Enlace a Google”)
 
 •	Imagen:
 Inline-style:
-![alt text](https://ejemplo.com/icon48.png “Titulo opcional del enlace”)
+![alt text](./imagenes/dbs%20manga.jpg”)
 
 •	Tablas:
 |Columna1|Columna2|Columna3|
