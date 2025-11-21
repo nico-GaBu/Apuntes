@@ -10,7 +10,11 @@ Git add . - Lo que hace este comando es añade todos los archivos que se han cre
 Git commit -m - Este comando sirve para poner a todos los archivos como si fuera en una carpeta invisible para que sea facil el poder enviar los archivos al repositorio. El apartado -m, lo que indica es que se pueda poner un nombre, indicando los cambios que se han realizado en general dentro de cada archivo.
 Git push origin main - Este comando sirve para que una vez ya esta listo todo para poder enviar al repositorio. El apartado origin significa que se esta enviando desde el dispositivo al repositorio que se encuentra en Github.
 
+Se vería de esta manera todos los comandos para realizar los comandos para poder tener sincronizado tanto el trabajo hecho en el dispositivo personal como en el repositorio
 ![Git clone](./imagenes/git%20clone.png)
+![Git add](./imagenes/git%20add.png)
+![Git commit](./imagenes/git%20commit.png)
+![Git push](./imagenes/git%20push.png)
 
 ¿Qué es un Lenguaje de Marcas?
 
@@ -46,14 +50,14 @@ Etiquetas Markdown
 [link](https://www.google.es/ “Enlace a Google”)
 
 •	Imagen:
-Inline-style:
-![alt text](./imagenes/dbs%20manga.jpg”)
+![DBS manga](./imagenes/dbs%20manga.jpg)
 
 •	Tablas:
 |Columna1|Columna2|Columna3|
 Para poder centrar el texto hay que poner : al principio y al final de la columna, para alinear el texto a la izquierda hay que poner : al principio y para alinear el texto a la derecha hay que poner : al final
 
 Introducción a HTML
+
 •	HTML (HyperText Markup Language) es un lenguaje de marcado estándar para crear páginas web
 •	HTML define la estructura y el contenido de las páginas web mediante etiquetas.
 •	Etiquetas de apertura: consiste en el nombre del elemento, encerrado por un paréntesis angular (<)
