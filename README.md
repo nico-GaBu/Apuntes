@@ -50,6 +50,7 @@ Etiquetas Markdown
 [link](https://www.google.es/ “Enlace a Google”)
 
 •	Imagen:
+
 ![DBS manga](./imagenes/dbs%20manga.jpg)
 
 •	Tablas:
@@ -129,4 +130,9 @@ Etiquetas de tablas
 
 CSS
 Es un archivo donde se puede añadir diseño a la página web para que tenga una apariencia bonita. Es un lenguaje sencillo, donde a nivel de diseño es mucho mejor que las etiquetas mismas de HTML.
-En cualquier etiqueta HTML, se le puede poner estilo dentro de la misma etiqueta de apertura, hará que todo lo que este en esa etiqueta haga lo que le pida ese estilo. Para que los estilos se apliquen a todas las partes que se encuentran en la cabecera, se indican en una etiqueta denominada <style> y dentro de esa etiqueta, todo lo que se le indica a la hora de recorrer todo el código, pues lo que a la hora de montar la página web cada cosa que tenga marcado en la etiqueta <style> lo va a poner tal y como se indica. También hay otro método para poder poner un archivo css de forma externa, pues dependiendo de donde se encuentra puede afectar directamente a toda la página web. Para poner los comentarios en CSS, se usa la nomenclatura /* Esto es un comentario en CSS*/
+En cualquier etiqueta HTML, se le puede poner estilo dentro de la misma etiqueta de apertura, hará que todo lo que este en esa etiqueta haga lo que le pida ese estilo. 
+Para que los estilos se apliquen a todas las partes que se encuentran en la cabecera, se indican en una etiqueta denominada <style> y dentro de esa etiqueta, todo lo que se le indica a la hora de recorrer todo el código, pues lo que a la hora de montar la página web cada cosa que tenga marcado en la etiqueta <style> lo va a poner tal y como se indica. También hay otro método para poder poner un archivo css de forma externa, pues dependiendo de donde se encuentra puede afectar directamente a toda la página web. Para poner los comentarios en CSS, se usa la nomenclatura /* Esto es un comentario en CSS*/
+Hay varios tipos de selectores donde puede afectar a cierta parte del archivo HTML que estamos trabajando.
+Para poder decirle al codigo para que solamente necesite afecte a una parte del codigo que este repetido, hay que ponerle una id, seguido de un nombre y luego para que el CSS solamente afecte al id que hemos dicho hay que usar el comando # seguido con el nombre que hemos dicho que tenga el id solamente afecta a eso y al resto lo mantiene igual.
+El comando universal para que cambie a todo el contenido del HTML es el comando *.
+Las pseudoclases se utilizan para aplicar estilos a elementos en estados especiales o condiciones especificas como un enlace, cuando pasas el raton por encima, un elace que ya ha sido visitado y cuando un campo del formulario ha sido seleccionado.
