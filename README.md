@@ -1,6 +1,6 @@
 # Apuntes
 
-<h1>Github y Git<h1>
+# Github y Git
 ¿Qué es Github y Git?
 Github es una plataforma en la nubeque permite almacenar, gestionar y colaborar en proyectos de código usando el sistema de control de versiones de Git. En pocas palabras, es el lugar donde los desarrolladores trabajan juntos para crear software, compartirlo y mejorar su calidad. Git es un sistema de control de versiones distribuido creado por Linus Torvalds en  2005. Su proposito es ayudar a los desarrolladores a gestionar el historial de cambios en el codigo de un proyecto, permitiendo trabajar de forma colaborativa y segura. 
 
@@ -16,7 +16,7 @@ Se vería de esta manera todos los comandos para realizar los comandos para pode
 ![Git commit](./imagenes/git%20commit.png)
 ![Git push](./imagenes/git%20push.png)
 
-<h2>¿Qué es un Lenguaje de Marcas?<h2>
+# ¿Qué es un Lenguaje de Marcas?
 
 Es un sistema para anotar un documento de manera que se pueda estructurar, formatear o enlazar contenido de manera legible tanto para personas como máquinas. 
 A diferencia de los lenguajes de programación, los lenguajes de marcas no ejecutan acciones por sí mismos, sino que estructuran o describen información usando etiquetas.
@@ -26,7 +26,7 @@ Lenguajes de Marca y su propósito principal:
 2.	XML (eXtensible Markup Language): Almacenar y transportar datos de manera estructurada, usando en la interoperabilidad de sistemas y aplicaciones.
 3.	Markdown: Formatear texto de manera sencilla y rápida, especialmente en archivos README, blogs o foro
 
-<h3>Markdown<h3>
+# Markdown
 Podemos crear un archivo de texto plano con varias extensiones para archivos de Markdown dependiendo del destino del archivo.
 
 Etiquetas de markdown
@@ -57,7 +57,7 @@ Etiquetas Markdown
 | Columna1 | Columna2 | Columna3 |
 Para poder centrar el texto hay que poner : al principio y al final de la columna, para alinear el texto a la izquierda hay que poner : al principio y para alinear el texto a la derecha hay que poner : al final
 
-<h4>Introducción a HTML<h4>
+# Introducción a HTML
 
 •	HTML (HyperText Markup Language) es un lenguaje de marcado estándar para crear páginas web
 •	HTML define la estructura y el contenido de las páginas web mediante etiquetas.
@@ -128,7 +128,7 @@ Etiquetas de tablas
 10.	Align: Atributo para alinear el contenido (left, center, right).
 11.	Bgcolor:  Define el color de fondo de la tabla o de una celda (ejemplo: bgcolor="yellow").
 
-<h5>CSS<h5>
+# CSS
 Es un archivo donde se puede añadir diseño a la página web para que tenga una apariencia bonita. Es un lenguaje sencillo, donde a nivel de diseño es mucho mejor que las etiquetas mismas de HTML.
 En cualquier etiqueta HTML, se le puede poner estilo dentro de la misma etiqueta de apertura, hará que todo lo que este en esa etiqueta haga lo que le pida ese estilo.
 
