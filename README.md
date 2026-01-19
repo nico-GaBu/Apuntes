@@ -138,3 +138,6 @@ Hay varios tipos de selectores donde puede afectar a cierta parte del archivo HT
 Para poder decirle al codigo para que solamente necesite afecte a una parte del codigo que este repetido, hay que ponerle una id, seguido de un nombre y luego para que el CSS solamente afecte al id que hemos dicho hay que usar el comando # seguido con el nombre que hemos dicho que tenga el id solamente afecta a eso y al resto lo mantiene igual.
 El comando universal para que cambie a todo el contenido del HTML es el comando *.
 Las pseudoclases se utilizan para aplicar estilos a elementos en estados especiales o condiciones especificas como un enlace, cuando pasas el raton por encima, un elace que ya ha sido visitado y cuando un campo del formulario ha sido seleccionado.
+
+Composición, márgenes, bordes y rellenos en CSS
+Son los sitios claves que se necesitan para cuando se hace un div en un archivo HTML, pues son unos sitios que ayudan a encontrar información que sea clara y precisa. La composición es la organización visual de los elementos en una página: como se distribuyen, alienan y relacionan entre si. El margen es el espacio externo que separa un elemento de otros elementos. El borde es la línea que rodea un elemento. El relleno es el espacio interno entre el contenido y su borde.
