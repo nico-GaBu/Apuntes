@@ -107,6 +107,8 @@ Los atributos que son necesarios para que tenga el formulario son:
 12.	Required: Hace que el campo sea obligatorio antes de enviar el formulario.
 13.	Disable: Desactiva el campo; no se puede editar ni enviar.
 14.	Readonly: El campo se muestra pero no se puede modificar, aunque sí se envía su valor.
+![formulario](./imagenes/formulario.png) 
+Este ejemplo es de como se hace un formulario para que al usuario se le pida de rellenar ciertos datos pars que queden registrados en una base de datos que esta vinculada al formulario.
 
 Textarea
 1.	Name: Nombre del campo; se usa como clave al enviar el contenido al servidor.
@@ -114,6 +116,8 @@ Textarea
 3.	Rows: Número de filas visibles (altura del área de texto).
 4.	Cols: Número de columnas visibles (ancho del área de texto).
 5.	Placeholder: Texto de ayuda que aparece dentro del área hasta que el usuario escribe.
+![textarea](./imagenes/textarea.png) 
+Este ejemplo es lo que se añade al formulario para que el usuario pueda meterle información adicional a lo que pide el formulario con el proposito que al encargado de la pagina web tenga en cuenta de los comentarios que recibe a diario por cada usuario que pasa por el formulario.
 
 Etiquetas de tablas
 1.	Table: Etiqueta principal que crea la tabla.
@@ -127,6 +131,8 @@ Etiquetas de tablas
 9.	Td: Celda de datos dentro de una fila.
 10.	Align: Atributo para alinear el contenido (left, center, right).
 11.	Bgcolor:  Define el color de fondo de la tabla o de una celda (ejemplo: bgcolor="yellow").
+![table](./imagenes/table.png) 
+Este ejemplo es de como se veria en un documento HTML, una tabla de informacion que necesita que sea actualizada acorde de con lo que tanto el creador de la tabla con lo que realmente requiere el usuario que se vea en esa tabla
 
 # CSS
 Es un archivo donde se puede añadir diseño a la página web para que tenga una apariencia bonita. Es un lenguaje sencillo, donde a nivel de diseño es mucho mejor que las etiquetas mismas de HTML.
@@ -141,3 +147,5 @@ Las pseudoclases se utilizan para aplicar estilos a elementos en estados especia
 
 Composición, márgenes, bordes y rellenos en CSS
 Son los sitios claves que se necesitan para cuando se hace un div en un archivo HTML, pues son unos sitios que ayudan a encontrar información que sea clara y precisa. La composición es la organización visual de los elementos en una página: como se distribuyen, alienan y relacionan entre si. El margen es el espacio externo que separa un elemento de otros elementos. El borde es la línea que rodea un elemento. El relleno es el espacio interno entre el contenido y su borde.
+![css](./imagenes/css.png)
+Este ejemplo de css indica como se debe ver ciertas partes de un documento HTML, que esten acorde de lo que realmente es el proposito de ese archivo HTML. A parte, tambíen está indicando como debería verse un boton que ha sido creado dentro del archivo HTML y necesita que se vea resaltante para que todos los usuarios lo puedan encontrar 
